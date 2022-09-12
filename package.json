@@ -1,0 +1,23 @@
+{
+    "name": "template",
+    "version": "1.0.0",
+    "description": "template for my personal purposes with versioning, gulp, njk and scss",
+    "main": "index.js",
+    "scripts": {
+        "runLocal": "gulp",
+        "build": "gulp build"
+    },
+    "author": "Alek",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.27.10",
+        "gulp": "^4.0.2",
+        "gulp-change-file-content": "^1.0.1",
+        "gulp-clean": "^0.4.0",
+        "gulp-nunjucks-render": "^2.2.3",
+        "gulp-sass": "^5.1.0",
+        "gulp-sourcemaps": "^3.0.0",
+        "nunjucks": "^3.2.3",
+        "sass": "^1.53.0"
+    }
+}
